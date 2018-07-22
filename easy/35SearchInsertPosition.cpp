@@ -22,11 +22,18 @@ public:
         }
         return count;
     }
+    
+    int others(vector<int>& nums, int target) {
+        int i = 0;
+        for(; i < nums.size() && target > nums[i]; i++);
+        return i;
+    }
 };
 
 int main() {
     vector<int> testVector = {1,3,5,6};
     
     Solution s;
-    cout << s.searchInsert(testVector, 7) << endl;
+//    cout << s.searchInsert(testVector, 7) << endl;
+    cout << s.others(testVector, 7) << endl;
 }
