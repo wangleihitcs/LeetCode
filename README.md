@@ -4,6 +4,7 @@ I will complete one problem every day！
 ## Easy(easy)
 * [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)
 * [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+* [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
