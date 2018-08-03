@@ -7,6 +7,7 @@ I will complete one problem every day！
 * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 * [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 * [66. Plus One](https://leetcode.com/problems/plus-one/description/)
+* [67. Add Binary](https://leetcode.com/problems/add-binary/description/)
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
