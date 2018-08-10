@@ -8,6 +8,7 @@ I will complete one problem every day！
 * [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 * [66. Plus One](https://leetcode.com/problems/plus-one/description/)
 * [67. Add Binary](https://leetcode.com/problems/add-binary/description/)
+* [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
