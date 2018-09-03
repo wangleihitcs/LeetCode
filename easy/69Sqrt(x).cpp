@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 class Solution {
@@ -24,31 +25,57 @@ public:
     }
     
     // O(log(n)), time limit
-    int others1(int x) {
-        int l = 1, r = x;
-        while(l <= r) {
-            int mid = (l + r)/2;
-            if(mid * mid > x) r = mid - 1;
-            else l = mid + 1;
+    int SqrtByBisection(int x) {
+        int left = 0, right = x;
+        int mid = (left + right)/2;
+        int last_mid;
+        float eps = 0.01;
+        do {
+            if(mid * mid <= x) {
+                left = mid;
+            } else {
+                right = mid;
+            }
+            last_mid = mid;
+            mid = (left + right)/2;
+        } while(abs(mid - last_mid) > eps);
+        return mid;
+    }
+    float SqrtByBisection2(float x) {
+        float left = 0, right = x;
+        while(right - left > 0.01) {
+            float mid = (left + right)/2;
+            if(mid * mid <= x)
+                left = mid;
+            else
+                right = mid;
         }
-        return l - 1;
+        return left;
     }
     
-    int others2(int x) {
-        int i = 0;
-        unsigned int term = 1;
-        unsigned int sum = 1;
-        while(sum <= x){
-            ++i;
-            term += 2;
-            sum += term;
-        }
-        return i;
+    // O(), accepted, time limit
+    int SqrtByNewton(int x) {
+        if(x == 0) return 0;
+        if(x == 1) return 1;
+        unsigned int x0 = x;
+        int last;
+        do {
+            last = x0;
+            x0 = (x0 + x/x0)/2;
+            cout << last << " " << x0 << endl;
+        } while(last - x0 > 0.01);
+
+        return last;
     }
 };
 
 int main() {
+    int x = 2147483647;
+    
     Solution s;
-//    cout << s.mySqrt(1) << endl;
-    cout << s.others1(2147395599) << endl;
+//    cout << s.mySqrt(101) << endl;
+//    cout << s.SqrtByBisection(1001) << endl;
+//    cout << s.SqrtByBisection2(1001) << endl;
+    cout << s.SqrtByNewton(2147483647) << endl;
+    cout << "sqrt() " << (int)sqrt(x) << endl;
 }
