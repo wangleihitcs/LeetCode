@@ -53,7 +53,7 @@ public:
         return left;
     }
     
-    // O(), accepted, time limit
+    // O(), time limit
     int SqrtByNewton(int x) {
         if(x == 0) return 0;
         if(x == 1) return 1;
@@ -67,6 +67,15 @@ public:
 
         return last;
     }
+    
+    // O(), accepted
+    int SqrtByNewton2(int x) {
+        long r = x;
+        while (r*r > x) {
+            r = (r + x/r) / 2;
+        }
+        return (int)r;
+    }
 };
 
 int main() {
@@ -76,6 +85,6 @@ int main() {
 //    cout << s.mySqrt(101) << endl;
 //    cout << s.SqrtByBisection(1001) << endl;
 //    cout << s.SqrtByBisection2(1001) << endl;
-    cout << s.SqrtByNewton(2147483647) << endl;
+    cout << s.SqrtByNewton2(2147483647) << endl;
     cout << "sqrt() " << (int)sqrt(x) << endl;
 }
