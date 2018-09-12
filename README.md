@@ -16,6 +16,7 @@ I will complete one problem every day！
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+* [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 * [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)
 * [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 * [15. 3Sum](https://leetcode.com/problems/3sum/description/)
