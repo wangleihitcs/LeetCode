@@ -19,7 +19,7 @@ using namespace std;
 
 class Solution {
 public:
-    //方法一: O([mn]^2), 借助一个数组，排序，再构造链表，最简单的方法，但是time limit
+    //方法一: O([mn]^2), 纯暴力，借助一个数组，排序，再构造链表，最简单的方法，但是time limit
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         vector<int> v;
         //1. get all element to v, O(mn)
@@ -53,7 +53,7 @@ public:
         return result;
     }
     
-    //方法二: O([m*mn], 借助一个数组，再遍历链表时排序，time limit
+    //方法二: O([m*mn], 借助一个数组，再遍历链表时排序，time limit, 如果me很大，很耗时
     ListNode* mergeKLists2(vector<ListNode*>& lists) {
         //0.这个判断输入是否空
         if(lists.size() == 0) return 0;
@@ -120,7 +120,54 @@ public:
         }
         return all_zero;
     }
-
+    
+    //方法二改: O(mn), 遍历链表时排序
+    ListNode* mergeKLists3(vector<ListNode*>& lists) {
+        //0.这个判断输入是否空
+        if(lists.size() == 0) return 0;
+        int input_flag = 0;
+        for(int i = 0; i < lists.size(); i++) {
+            if(lists[i] != NULL) {
+                input_flag = 1;
+                break;
+            }
+        }
+        if(input_flag == 0) return 0;
+        
+        bool flag = true;
+        ListNode* p = new ListNode(-1);
+        ListNode* result = p;
+        //逐个找出最小值，O(mn)
+        while(flag) {
+            int min = 100000;
+            int index = 0;
+            flag = false;
+            for(int i = 0; i < lists.size(); i++) {
+                if(lists[i] != NULL) {
+                    flag = true;
+                }
+                if(lists[i] != NULL && lists[i] ->val < min) {
+                    min = lists[i] ->val;
+                    index = i;
+                }
+            }
+            if(min != 100000) {
+                ListNode* temp = new ListNode(min);
+                p ->next = temp;
+                p = p ->next;
+//                cout << min << " ";
+                if(lists[index] != NULL)
+                    lists[index] = lists[index] ->next;
+            }
+        }
+        result = result ->next;
+        while(result != NULL) {
+            cout << result ->val << " ";
+            result = result ->next;
+        }
+        cout << endl;
+        return result;
+    }
     
 };
 
@@ -141,8 +188,8 @@ int main() {
     ListNode* l31 = new ListNode(6);
     list3 ->next = l31;
     
-    vector<ListNode*> lists = {NULL};
+    vector<ListNode*> lists = {list1, list2, list3};
     Solution so;
-    so.mergeKLists2(lists);
+    so.mergeKLists3(lists);
     
 }
