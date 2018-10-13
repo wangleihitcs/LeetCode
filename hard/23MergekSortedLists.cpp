@@ -121,23 +121,15 @@ public:
         return all_zero;
     }
     
-    //方法二改: O(mn), 遍历链表时排序
+    //方法二改: O(mn), 一层层逐个找出最小值, Accepted
     ListNode* mergeKLists3(vector<ListNode*>& lists) {
         //0.这个判断输入是否空
         if(lists.size() == 0) return 0;
-        int input_flag = 0;
-        for(int i = 0; i < lists.size(); i++) {
-            if(lists[i] != NULL) {
-                input_flag = 1;
-                break;
-            }
-        }
-        if(input_flag == 0) return 0;
         
+        //1.逐个找出最小值，O(mn)
         bool flag = true;
         ListNode* p = new ListNode(-1);
         ListNode* result = p;
-        //逐个找出最小值，O(mn)
         while(flag) {
             int min = 100000;
             int index = 0;
@@ -155,7 +147,6 @@ public:
                 ListNode* temp = new ListNode(min);
                 p ->next = temp;
                 p = p ->next;
-//                cout << min << " ";
                 if(lists[index] != NULL)
                     lists[index] = lists[index] ->next;
             }
@@ -168,6 +159,7 @@ public:
         cout << endl;
         return result;
     }
+    
     
 };
 
