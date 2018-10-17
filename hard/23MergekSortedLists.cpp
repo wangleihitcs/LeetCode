@@ -8,8 +8,8 @@
 
 #include <iostream>
 #include <vector>
+#include <queue>
 using namespace std;
-
 
  struct ListNode {
      int val;
@@ -121,7 +121,7 @@ public:
         return all_zero;
     }
     
-    //方法二改: O(mn), 一层层逐个找出最小值, Accepted
+    //方法二改: O(mmn), 一层层逐个找出最小值, Accepted
     ListNode* mergeKLists3(vector<ListNode*>& lists) {
         //0.这个判断输入是否空
         if(lists.size() == 0) return 0;
@@ -160,7 +160,31 @@ public:
         return result;
     }
     
-    
+    //方法三：O(mn*log(m)), 优先队列，遍历时构建队列, Accpeted
+    ListNode* mergeKLists4(vector<ListNode*>& lists) {
+        //1. build priority queue, O(mn * log(m))
+        priority_queue< int, vector<int>, greater<int> > pq;
+        vector<ListNode*>::iterator it;
+        for(it = lists.begin(); it != lists.end(); it++) {
+            ListNode* p = *(it);
+            while(p != NULL) {
+                pq.push(p ->val);
+                p = p ->next;
+            }
+        }
+        
+        //2. get result, O(mn * log(m))s
+        ListNode* p = new ListNode(-1);
+        ListNode* result = p;
+        while(!pq.empty()) {
+            ListNode* temp = new ListNode(pq.top());
+            p ->next = temp;
+            p = p ->next;
+//            cout << pq.top() << " ";
+            pq.pop();
+        }
+        return result ->next;
+    }
 };
 
 int main() {
@@ -182,6 +206,6 @@ int main() {
     
     vector<ListNode*> lists = {list1, list2, list3};
     Solution so;
-    so.mergeKLists3(lists);
+    so.mergeKLists4(lists);
     
 }

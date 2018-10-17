@@ -30,4 +30,5 @@ I will complete one problem every day！
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 * [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
 	* 方法一、逐层遍历，O(kN)
+	* 方法二、优先队列，O(Nlog(k)）
 
