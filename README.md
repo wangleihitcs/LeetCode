@@ -13,6 +13,7 @@ I will complete one problem every day！
 	* 动态规划，找规律
 * [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
 	* 链表的删除、遍历
+* [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
