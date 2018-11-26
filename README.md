@@ -15,6 +15,7 @@ I will complete one problem every day！
 	* 链表的删除、遍历
 * [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
 * [100. Same Tree](https://leetcode.com/problems/same-tree/description/)
+* [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
