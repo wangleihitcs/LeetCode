@@ -21,6 +21,7 @@ I will complete one problem every day！
 * [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 * [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 * [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+* [112. Path Sum](https://leetcode.com/problems/path-sum/)
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
