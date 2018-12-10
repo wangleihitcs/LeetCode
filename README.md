@@ -22,6 +22,8 @@ I will complete one problem every day！
 * [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 * [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)
+* [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+* [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
