@@ -2,6 +2,9 @@
 I will complete one problem every day！
 
 ## Easy(easy)
+* [1. Two Sum](https://leetcode.com/problems/two-sum/)
+* [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+
 * [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)
 * [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
@@ -24,6 +27,10 @@ I will complete one problem every day！
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)
 * [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 * [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
+* [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+* [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+* [169. Majority Element](https://leetcode.com/problems/majority-element/)
+
 
 ## Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
