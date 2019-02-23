@@ -30,6 +30,9 @@ I will complete one problem every day！
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 * [169. Majority Element](https://leetcode.com/problems/majority-element/)
+* [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+* [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+* [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 
 
 ## Medium(medium)
