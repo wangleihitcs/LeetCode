@@ -46,6 +46,8 @@ I will complete one problem every day！
 * [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
 
 * [15. 3Sum](https://leetcode.com/problems/3sum/description/)
+* [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+* [18. 4Sum](https://leetcode.com/problems/4sum/)
 
 ## Hard(hard)
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
