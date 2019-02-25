@@ -49,6 +49,9 @@ I will complete one problem every day！
 * [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 * [18. 4Sum](https://leetcode.com/problems/4sum/)
 
+* [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+* [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
 ## Hard(hard)
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 * [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
