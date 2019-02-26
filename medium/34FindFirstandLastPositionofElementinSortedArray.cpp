@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 class Solution {
@@ -52,8 +53,36 @@ public:
         }
         return {left, right};
     }
+    
+    //方法三、对二的优化，时间复杂度O(logn)，空间复杂度O(1)，20ms，10.9MB
+    vector<int> searchRange3(vector<int>& nums, int target) {
+        if(nums.size() == 0) return {-1, -1};
+        int left = my_lower_bound(nums, target);
+        int right = my_lower_bound(nums, target+1) - 1;
+        if(left <= right) {
+            return {left, right};
+        } else {
+            return {-1, -1};
+        }
+        
+    }
+    int my_lower_bound(vector<int>& nums, int target) {
+        if(target < nums[0]) return -1;
+        if(target > nums[nums.size()-1]) return nums.size();
+        int l = 0, r = nums.size()-1;
+        while(l <= r) {
+            int mid = (l + r) / 2;
+            if(target <= nums[mid]) {
+                r = mid - 1;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return l;
+    }
 };
 
 int main() {
-    
+    vector<int> nums = {1,1,2,3,4,5};
+    cout << lower_bound(nums.begin(), nums.end(), -1) - nums.begin() << endl;
 }

@@ -52,6 +52,11 @@ I will complete one problem every day！
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 * [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
+* [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+* [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+
+* [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+
 ## Hard(hard)
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 * [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
