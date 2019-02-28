@@ -1,7 +1,9 @@
-# LeetCode
-I will complete one problem every day！
+# LeetCode and 剑指offer
+- [LeetCode](#LeetCode)
+- [剑指offer](#剑指offer)
 
-## Easy(easy)
+## LeetCode
+### Easy(easy)
 * [1. Two Sum](https://leetcode.com/problems/two-sum/)
 * [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
@@ -35,7 +37,7 @@ I will complete one problem every day！
 * [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 
 
-## Medium(medium)
+### Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 * [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 	* 方法一、递归求解，暴力求解O(n^3-4)
@@ -57,9 +59,13 @@ I will complete one problem every day！
 
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 
-## Hard(hard)
+### Hard(hard)
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 * [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
 	* 方法一、逐层遍历，O(kN)
 	* 方法二、优先队列，O(Nlog(k)）
+
+## 剑指offer
+### 字符串
+* 5.替换空格
 
