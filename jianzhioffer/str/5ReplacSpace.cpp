@@ -32,6 +32,7 @@ public:
     
     //方法二、计算空格数量，时间复杂度O(n)，空间复杂度O(1)
     void replaceSpace2(char* str, int length) {
+        if(str == nullptr || length <= 0) return;
         int spaceNum = 0;
         for(int i = 0; i < length; i++) {
             if(str[i] == ' ') spaceNum++;
