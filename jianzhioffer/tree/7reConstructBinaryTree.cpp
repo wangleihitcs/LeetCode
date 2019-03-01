@@ -19,7 +19,7 @@ struct TreeNode {
 
 class Solution {
 public:
-    //方法一、递归，时间复杂度O(n)，5ms，608k
+    //方法一、递归，时间复杂度O(nlogn)，5ms，608k
     //先找出根节点，找出左子树节点和右子树节点
     TreeNode* reConstructBinaryTree(vector<int>& pre, vector<int>& vin) {
         //1. Find root node、left tree nodes、right tree nodes
