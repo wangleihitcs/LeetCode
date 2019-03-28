@@ -44,11 +44,15 @@
 	* 方法二、从中心点展开，O(n^2)
 	* 方法三、动态回归, O(n^2)
 * [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)
+* [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 * [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 * [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
 
 * [15. 3Sum](https://leetcode.com/problems/3sum/description/)
 * [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+
+* [17. 电话号码字符的全排列](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
 * [18. 4Sum](https://leetcode.com/problems/4sum/)
 
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
@@ -58,6 +62,7 @@
 * [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+* [152. 乘积最大的连续子序列](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### Hard(hard)
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
