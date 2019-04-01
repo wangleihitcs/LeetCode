@@ -8,10 +8,12 @@
 
 #include <time.h>
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Solution {
 public:
+    //方法一、暴力匹配，时间复杂度O(mn)，空间复杂度O(1)
     int strStr(string haystack, string needle) {
         if(needle == "") return 0;
         int haystack_length = haystack.size();
@@ -32,17 +34,50 @@ public:
         return -1;
     }
     
-    int others(string haystack, string needle) {
-        if(needle=="") return 0;
-        int index = haystack.find(needle);
-        if(index != haystack.npos) return index;
+    //方法二、KMP算法，时间复杂度O(n+m)，空间复杂度O(m)
+    int KMP(string haystack, string needle) {
+        if(needle == "") return 0;
+        int N = haystack.size();
+        int M = needle.size();
+        if(N < M) return -1;
+        
+        vector<int> next(M, 0);
+        getNext(needle, next);
+        
+        int i = 0, j = 0;
+        while(i < N && j < M) {
+            if(haystack[i] == needle[j]) {
+                i++;
+                j++;
+            } else {
+                if(j != 0) j = next[j-1];
+                else
+                    i++;
+            }
+        }
+        
+        if(j == M) return i - j;
+        
         return -1;
+    }
+    void getNext(string P, vector<int>& next) {
+        int i, k;
+        int M = P.size();
+        next[0] = 0;
+        for(i = 1, k = 0; i < M; i++) {
+            while(k > 0 && P[i] != P[k])
+                k = next[k-1];
+            if(P[i] == P[k]) {
+                k++;
+            }
+            next[i] = k;
+        }
     }
 };
 
 int main() {
-    string haystack = "hello";
-    string needle = "ell";
+    string haystack = "helloaabcabc";
+    string needle = "abcabc";
     Solution s;
-    cout << s.strStr(haystack, needle) << endl;
+    cout << s.KMP(haystack, needle) << endl;
 }

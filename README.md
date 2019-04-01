@@ -7,7 +7,7 @@
 * [1. Two Sum](https://leetcode.com/problems/two-sum/)
 * [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
-* [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)
+* [28. KMP算法](https://leetcode.com/problems/implement-strstr/description/)
 * [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 * [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
@@ -54,6 +54,9 @@
 * [17. 电话号码字符的全排列](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
 * [18. 4Sum](https://leetcode.com/problems/4sum/)
+* [19. 删除链表倒数第n个节点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+* [22. 生成合法括号](https://leetcode.com/problems/generate-parentheses/)
 
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 * [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
