@@ -57,9 +57,16 @@
 * [19. 删除链表倒数第n个节点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 * [22. 生成合法括号](https://leetcode.com/problems/generate-parentheses/)
+* [24. 交换链表中的节点对](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
+* [29. 整除](https://leetcode.com/problems/divide-two-integers/)
+
+* [31. 下一个排列](https://leetcode.com/problems/next-permutation/)
 
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 * [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+* [36。 9x9数独是否合法](https://leetcode.com/problems/valid-sudoku/)
 
 * [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 * [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
