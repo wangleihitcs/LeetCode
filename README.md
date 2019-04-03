@@ -71,7 +71,12 @@
 * [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 * [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 
+* [43. 字符串相乘](https://leetcode.com/problems/multiply-strings/)
+* [46. 全排列](https://leetcode.com/problems/permutations/)
+* [47. 全排列带重复数字](https://leetcode.com/problems/permutations-ii/)
+
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+* [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 * [152. 乘积最大的连续子序列](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### Hard(hard)
