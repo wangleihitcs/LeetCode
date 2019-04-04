@@ -77,6 +77,9 @@
 
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 * [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+* [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+* [54. 螺旋打印矩阵](https://leetcode.com/problems/spiral-matrix/)
+* [55. Jump Game](https://leetcode.com/problems/jump-game/)
 * [152. 乘积最大的连续子序列](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### Hard(hard)
