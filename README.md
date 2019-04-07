@@ -74,6 +74,7 @@
 * [43. 字符串相乘](https://leetcode.com/problems/multiply-strings/)
 * [46. 全排列](https://leetcode.com/problems/permutations/)
 * [47. 全排列带重复数字](https://leetcode.com/problems/permutations-ii/)
+* [60. 全排列的第k个排列](https://leetcode.com/problems/permutation-sequence/)
 
 * [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 * [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
@@ -82,6 +83,7 @@
 * [55. Jump Game](https://leetcode.com/problems/jump-game/)
 * [56. 合并区间](https://leetcode.com/problems/merge-intervals/)
 * [59. 螺旋打印矩阵II](https://leetcode.com/problems/spiral-matrix-ii/)
+* [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 * [152. 乘积最大的连续子序列](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### Hard(hard)
