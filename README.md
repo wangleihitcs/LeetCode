@@ -84,6 +84,8 @@
 * [56. 合并区间](https://leetcode.com/problems/merge-intervals/)
 * [59. 螺旋打印矩阵II](https://leetcode.com/problems/spiral-matrix-ii/)
 * [61. Rotate List](https://leetcode.com/problems/rotate-list/)
+* [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+* [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 * [152. 乘积最大的连续子序列](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### Hard(hard)
