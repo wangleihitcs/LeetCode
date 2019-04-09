@@ -86,6 +86,10 @@
 * [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 * [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 * [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+* [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+
+* [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+* [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 * [152. 乘积最大的连续子序列](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### Hard(hard)
