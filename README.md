@@ -96,6 +96,15 @@
 	* [77. Combinations](https://leetcode.com/problems/combinations/)
 	* [78. Subsets](https://leetcode.com/problems/subsets/)
 	* [79. Word Search](https://leetcode.com/problems/word-search/)
+
+* [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+* [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+* [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+* [86. Partition List](https://leetcode.com/problems/partition-list/)
+* [89. Gray Code](https://leetcode.com/problems/gray-code/)
+* [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+* [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
+* [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 * [152. 乘积最大的连续子序列](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### Hard(hard)
