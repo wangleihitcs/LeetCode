@@ -31,6 +31,7 @@
 * [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+* [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 * [169. Majority Element](https://leetcode.com/problems/majority-element/)
 * [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 * [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
@@ -105,13 +106,20 @@
 * [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
 * [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
 * [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+* [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
+* [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+* [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+* [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
+* [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 * [152. 乘积最大的连续子序列](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### Hard(hard)
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
+* [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 * [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
 	* 方法一、逐层遍历，O(kN)
 	* 方法二、优先队列，O(Nlog(k)）
+* [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 ## 剑指offer
 ### 数组
