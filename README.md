@@ -47,7 +47,9 @@
 * [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 * [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 * [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
-
+* [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+* [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+* [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 
 ### Medium(medium)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
